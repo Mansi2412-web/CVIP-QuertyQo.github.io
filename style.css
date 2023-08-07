@@ -1,0 +1,330 @@
+body
+{
+     color: linear-gradient(to right, #434343 0%, black 100%);
+     font-family: 'Open Sans', sans-serif;
+}
+
+a
+{
+     text-decoration: none;
+     color: black;
+}
+
+a:hover
+{
+     color: white;
+}
+
+button:hover
+{
+     background-image: linear-gradient(to right, #434343 0%, black 100%);
+     color: white;
+}
+
+/* Navbar  */
+.navbar
+{
+     padding: 0.5%;
+     background-image: linear-gradient(to left, #434343 0%, black 100%);
+     color: white;
+}
+  
+.nav-link
+{
+     font-size: 1.7rem;
+     text-decoration: none;
+     color: white;
+     padding: 10px;
+     margin: 25px;
+}
+
+.nav-link:hover
+{
+     color: black;
+     text-shadow: 2px 2px 4px #fff;
+}
+
+.logo
+{
+     font-size: 3.5rem;
+}
+
+#logoText
+{
+     color: white;
+     font-family: 'Caveat', cursive;
+}
+
+#logoText:hover
+{
+     color: black;
+     text-shadow: 2px 2px 4px #fff;
+}
+
+/* Hero section  */
+#hero
+{
+     padding: 5% 0;
+}
+
+#bubble
+{
+     position: absolute;
+     right: 15%;
+     top: 15%;
+     width: 25%;
+}
+
+.jumbotron
+{
+     width: 50%;
+     margin-top: 8%;
+     line-height: 3;
+}
+
+.form-inline
+{
+     width: 25%;
+}
+
+.lead
+{
+     font-size: 1.3rem;
+     font-weight: 400;
+     color: grey
+}
+
+h1,h2
+{
+     font-size: 5rem;
+     font-weight: 500;
+     color: rgba(0, 0, 0, 0.76);
+}
+
+#learn-btn
+{
+     padding: 10px 20px;
+     font-size: 20px;
+}
+
+/* About section  */
+#about
+{
+     margin-top: 10%;
+     line-height: 2;
+     width: 100%;
+     text-align: center;
+}
+
+.about-class
+{
+     position: relative;
+}
+
+h2
+{
+     font-size: 4rem;
+     font-weight: 500;
+     text-align: right;
+     margin-right: 15%;
+}
+
+.about-text
+{
+     margin-left: 48%;
+     margin-top: 3%;
+     font-size: 1.3rem;
+     width: 50%;
+     line-height: 3;
+     font-weight: 500;
+     color: gray;
+}
+
+#qImg
+{
+     position: absolute;
+     top: 7%;
+     left: 1%;
+     width: 35%;
+     border-radius: 2% 20%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Contact section  */
+#contact
+{
+     margin-top: 7%;
+     text-align: center;
+     padding: 1.5%;
+     background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.copyright
+{
+     font-size: 1rem;
+     color: white;
+     font-weight: 500;
+     margin: 20px 0;
+}
+
+/* **************Next Page ********************** */
+
+/* QuertyQo Search  */
+.search
+{
+     text-align: center;
+     margin-top: 2%;
+     position: relative;
+}
+
+#Qpage
+{
+     font-size: 3.5rem;
+     font-weight: 600;
+     color: rgba(255, 255, 255, 0.185);
+     -webkit-text-stroke: 1px #F8F8F8;
+     text-shadow: 0px 2px 4px green;
+     font-family: 'Roboto', sans-serif;
+}
+
+#quotebg
+{
+     width: 40%;
+     border-radius: 0 15%;
+     z-index: -1;
+     margin-top: 1.5%;
+}
+
+#quoteBox
+{
+     margin-top: 2%;
+     width: 100%;
+     text-align: center;
+     font-family: 'Caveat', cursive;
+     font-weight: bolder;
+     
+     position: absolute;
+     top: 35%;
+     
+}
+
+.left-quote
+{
+     position: absolute;
+     top: 15%;
+     left: 34%;
+
+     opacity: 0.7;
+}
+
+#sub-head
+{
+     font-family: 'Roboto', sans-serif;
+     font-size: 3rem;
+     font-weight: 600;
+     color: rgba(0, 0, 0, 0.7);
+}
+
+#quote
+{
+     font-size: 1.8rem;
+     margin-top: 45px;
+     text-align: center;
+     width: 25%;
+     margin-left: 37%;
+}
+
+#author
+{
+     text-align: center;
+     font-size: 1.3rem;
+}
+
+#search-btn
+{
+     padding: 5px 15px;
+     font-size: 1.5rem;
+     margin-top: 75px;
+}
+
+
+/* Media queries  */
+@media (max-width: 1028px)
+{
+     h1
+     {
+          font-size: 3rem;
+     }
+     .jumbotron
+     {
+          text-align: center;
+          margin: 0 25%;
+     }
+     #bubble
+     {
+          position: static;
+          width: 65%;
+          margin: 0 18%;
+     }
+     .form-inline
+     {
+          margin: 0 35%;
+     }
+     .nav-item
+     {
+          text-align: right;
+     }
+     .about-class
+     {
+          margin: 0 25%;
+          text-align: center;
+     }
+     .about-text
+     {
+          width: 100%;
+          margin: 0 10px;
+          font-size: 1rem;
+     }
+     .aboutUs
+     {
+          font-size: 2.75rem;
+          text-align: center;
+          margin: 0 10px;
+     }
+     #qImg
+     {
+          position: static;
+          width: 75%;
+          margin: 50px 0;
+     }
+
+
+     /* Second page  */
+     #Qpage
+     {
+          font-size: 3rem;
+          margin-top: 10%;
+     }
+     #quotebg
+     {
+          visibility: hidden;
+     }
+     .left-quote
+     {
+          position: absolute;
+          top: 25%;
+          left: 15%;
+          width: 6%;
+     }
+     #sub-head
+     {
+          margin-top: 10%;
+          font-size: 2rem;
+     }
+     #quote
+     {
+          font-size: 1.2rem;
+          width: 50%;
+          margin: 5% 25%;
+     }
+}
